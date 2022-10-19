@@ -80,6 +80,9 @@
    .format-header {
        margin-bottom: 56px;
    }
+   .format-main {
+    display: flex;
+ }
 
 
    .format-main-box {
@@ -142,9 +145,7 @@
          margin-bottom: 24px;
      }
  
-     .format-main {
-         display: flex;
-     }
+      
  
      .format-main-box {
          margin-right: 21px;

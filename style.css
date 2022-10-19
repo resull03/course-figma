@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    list-style-type: none;
+
 }
 /* Part 1 and 2 */
 
@@ -17,7 +17,7 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 81px;
+    padding: 20px;
 }
 .header__logo {
     margin-top: 21px;
@@ -194,6 +194,7 @@
 }
 .list-text {
     display: flex;
+    list-style-type: none !important;
 }
 .list-text li {
     margin-right: 25px;
@@ -287,7 +288,7 @@
 .course-progress .container {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    /* width: 65%; */
     gap: 20px;
 }
 
@@ -326,9 +327,7 @@
 
 @media screen and (max-width: 800px) {
     /* Part 1 and 2 */
-    .container {
-        padding: 0px 60px;
-    }
+   
     .header__logo {
         margin-top: 25px;
         width: 64.87px;
@@ -501,9 +500,7 @@
 
 @media screen and (max-width: 500px) {
     /* Part 1  */
-    .container {
-        padding: 0px 35px;
-    }
+  
     .header__logo {
         margin-top: 35px;
         width: 52.19px;
@@ -677,6 +674,179 @@
 /* Part 3 start */
 
 
+.format-main-box{
+    width: 31% ;
+}
+
+
+.format-container {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 25px 16px
+}
+
+.format-header {
+    margin-bottom: 40px;
+}
+
+.format-main {
+    display: flex;
+justify-content: space-between;
+
+}
+
+.format-main h4 {
+    color: #1E4681;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab';
+}
+
+.format-main-box p {
+    font-size: 18px;
+}
+
+/* format section end */
+
+/* knowladge section start */
+
+.knowladge-container {
+    /* padding-left: 8vw; */
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 25px 16px
+}
+
+.knowladge-header {
+    margin-bottom: 50px;
+}
+
+.knowladge-main-content ul {
+    list-style-type: disc !important;
+    width: 675px;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* format section start */
+    .format {
+       margin-bottom: 40px;
+   }
+
+   .format-container {
+
+       max-width:1200px;
+       margin: 0 auto;
+    /* padding: 25px 16px; */
+   }
+
+   .format-header {
+       margin-bottom: 56px;
+   }
+   .format-main {
+    display: flex;
+ }
+
+
+   .format-main-box {
+       margin-bottom: 56px;
+   }
+
+   .format-main h4 {
+       color: #1E4681;
+       margin-bottom: 8px;
+   }
+
+   .format-main-box p {
+       font-size: 11px;
+       width: 150px;
+   }
+
+   /* format section end */
+
+   /* knowladge section start */
+   .knowladge {
+       margin-bottom: 157.5px;
+   }
+
+   .knowladge-container {
+       padding-left: 80px;
+       padding-left: 80px;
+       max-width:1200px;
+       margin: 0 auto;
+   }
+
+   .knowladge-header {
+       margin-bottom: 56px;
+   }
+
+   .knowladge-main-content ul {
+       width: 380px;
+       padding-left: 5px;
+       font-size: 14px;
+       line-height: 150%;
+   }
+
+   /* knowladge section end */
+}
+@media screen and (max-width: 500px) {
+
+    /* format section start */
+    
+ 
+     .format-container {
+         max-width:1200px;
+         margin: 0 auto;
+     padding: 25px 16px;
+     }
+ 
+
+ 
+      .format-main{
+          flex-direction: column;
+      }
+ 
+  
+ 
+     .format-main h4 {
+         color: #1E4681;
+         margin-bottom: 4px;
+         font-family: 'Roboto Slab';
+         font-size: 16px;
+     }
+ 
+     .format-main-box p {
+         font-size: 10px;
+         width: 200px;
+     }
+ 
+     /* format section end */
+ 
+     /* knowladge section start */
+     .knowladge {
+         margin-bottom: 60px;
+     }
+ 
+     .knowladge-container {
+       
+         padding-left: 32px;
+         max-width:1200px;
+         margin: 0 auto;
+     }
+ 
+     .knowladge-header {
+         margin-bottom: 15px;
+     }
+ 
+     .knowladge-main-content ul {
+         width: 300px;
+         padding-left: 8px;
+         font-size: 12px;
+     }
+ 
+     /* knowladge section end */
+ }
+
 
 
 
@@ -728,11 +898,6 @@
     padding: 35px 0;
 }
 
-.container{
-    max-width:1200px;
-    margin: 0 auto;
-    padding: 25px 16px;
-}
 
 .container > h3{
    font-size: 55px;
@@ -743,7 +908,7 @@
    font-size: 25px;
    font-weight: 400;
    margin-top: 20px;
-   margin-bottom: -20px;
+   margin-bottom: -10px;
 }
 
  .price h4{
@@ -783,7 +948,7 @@
      
       .price p{
         font-size: 14px;
-        margin-bottom: -15px;
+        margin-bottom: -7px;
      }
      
       .price h4{
@@ -812,7 +977,7 @@
      
       .price p{
         font-size: 12px;
-        margin-bottom: -10px;
+        margin-bottom: -3px;
      }
      
       .price h4{
